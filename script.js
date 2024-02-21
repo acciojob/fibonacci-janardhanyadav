@@ -1,5 +1,4 @@
 function fibonacci(num) {
-// your code here
 	if (num <= 0) {
         return "Invalid input. Please provide a positive integer.";
     } else if (num === 1) {
@@ -13,6 +12,6 @@ function fibonacci(num) {
         }
 
         return fibArray[num - 1];
+    }
 }
-
 module.exports = fibonacci;
